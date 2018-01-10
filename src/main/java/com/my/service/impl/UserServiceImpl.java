@@ -1,5 +1,7 @@
 package com.my.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -35,4 +37,20 @@ public class UserServiceImpl implements UserService {
 		return userdao.updateByPrimaryKey(user);
 	}
 
+	public User getUserByNameAndPassword(String name, String password) {
+		// TODO Auto-generated method stub
+		return userdao.getUserByNameAndPassword(name, password);
+	}
+
+	public User getUserByName(String name) {
+		// TODO Auto-generated method stub
+		return userdao.getUserByName(name);
+	}
+
+	public List<User> getAllUser() {
+		// TODO Auto-generated method stub
+		return userdao.getAllUser();
+	}
+
+	
 }

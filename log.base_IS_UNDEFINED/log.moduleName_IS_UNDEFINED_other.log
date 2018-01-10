@@ -1,0 +1,80 @@
+2018-01-10 14:16:48.468 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-01-10 14:16:49.111 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-01-10 14:16:49.298 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [D:\yirendai-workspace\springmvc_mybaties\target\classes\com\my\mapping\UserMapper.xml]'
+2018-01-10 14:16:49.362 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():106 -Creating a new SqlSession
+2018-01-10 14:16:49.367 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():142 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31add175] was not registered for synchronization because synchronization is not active
+2018-01-10 14:16:49.412 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection():85 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3b7d3a38] will not be managed by Spring
+2018-01-10 14:16:49.414 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3b7d3a38]
+2018-01-10 14:16:49.426 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -==>  Preparing: select id, user_name, password, age from user_t where userName = ? and password=? 
+2018-01-10 14:16:49.532 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession():170 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31add175]
+2018-01-10 14:19:46.833 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-01-10 14:19:47.377 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-01-10 14:19:47.542 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [D:\yirendai-workspace\springmvc_mybaties\target\classes\com\my\mapping\UserMapper.xml]'
+2018-01-10 14:19:47.596 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():106 -Creating a new SqlSession
+2018-01-10 14:19:47.604 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():142 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31add175] was not registered for synchronization because synchronization is not active
+2018-01-10 14:19:47.642 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection():85 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3b7d3a38] will not be managed by Spring
+2018-01-10 14:19:47.644 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3b7d3a38]
+2018-01-10 14:19:47.658 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -==>  Preparing: select id, user_name, password, age from user_t where user_name = ? and password=? 
+2018-01-10 14:19:47.776 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession():170 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31add175]
+2018-01-10 14:22:38.468 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-01-10 14:22:39.022 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-01-10 14:22:39.200 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [D:\yirendai-workspace\springmvc_mybaties\target\classes\com\my\mapping\UserMapper.xml]'
+2018-01-10 14:22:39.263 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():106 -Creating a new SqlSession
+2018-01-10 14:22:39.275 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():142 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31add175] was not registered for synchronization because synchronization is not active
+2018-01-10 14:22:39.320 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection():85 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3b7d3a38] will not be managed by Spring
+2018-01-10 14:22:39.322 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3b7d3a38]
+2018-01-10 14:22:39.335 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -==>  Preparing: select id, user_name, password, age from user_t where user_name = ? and password=? 
+2018-01-10 14:22:39.446 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession():170 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31add175]
+2018-01-10 14:25:33.419 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-01-10 14:25:34.016 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-01-10 14:25:34.181 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [D:\yirendai-workspace\springmvc_mybaties\target\classes\com\my\mapping\UserMapper.xml]'
+2018-01-10 14:25:34.259 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():106 -Creating a new SqlSession
+2018-01-10 14:25:34.267 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():142 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69f1a286] was not registered for synchronization because synchronization is not active
+2018-01-10 14:25:34.314 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection():85 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@21337f7b] will not be managed by Spring
+2018-01-10 14:25:34.316 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@21337f7b]
+2018-01-10 14:25:34.321 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -==>  Preparing: select id, user_name, password, age from user_t where user_name = ? and password=? 
+2018-01-10 14:25:34.425 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -==> Parameters: 小明(String), 123(String)
+2018-01-10 14:25:34.444 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession():170 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69f1a286]
+2018-01-10 14:25:49.772 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-01-10 14:25:50.324 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-01-10 14:25:50.507 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [D:\yirendai-workspace\springmvc_mybaties\target\classes\com\my\mapping\UserMapper.xml]'
+2018-01-10 14:25:50.568 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():106 -Creating a new SqlSession
+2018-01-10 14:25:50.598 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():142 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69f1a286] was not registered for synchronization because synchronization is not active
+2018-01-10 14:25:50.643 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection():85 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@21337f7b] will not be managed by Spring
+2018-01-10 14:25:50.644 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@21337f7b]
+2018-01-10 14:25:50.655 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -==>  Preparing: select id, user_name, password, age from user_t where user_name = ? and password=? 
+2018-01-10 14:25:50.751 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -==> Parameters: 小明(String), 123(String)
+2018-01-10 14:25:50.773 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession():170 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69f1a286]
+2018-01-10 15:21:40.063 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-01-10 15:21:40.659 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-01-10 15:21:40.845 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [D:\yirendai-workspace\springmvc_mybaties\target\classes\com\my\mapping\UserMapper.xml]'
+2018-01-10 15:26:20.419 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-01-10 15:26:20.954 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-01-10 15:26:21.095 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [D:\yirendai-workspace\springmvc_mybaties\target\classes\com\my\mapping\UserMapper.xml]'
+2018-01-10 15:26:21.153 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():106 -Creating a new SqlSession
+2018-01-10 15:26:21.165 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():142 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38604b81] was not registered for synchronization because synchronization is not active
+2018-01-10 15:26:21.209 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection():85 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7efaad5a] will not be managed by Spring
+2018-01-10 15:26:21.210 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7efaad5a]
+2018-01-10 15:26:21.216 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -==>  Preparing: select id, user_name, password, age from user_t where user_name = ? and password=? 
+2018-01-10 15:26:21.323 DEBUG [main] com.my.dao.UserMapper.getUserByNameAndPassword.debug():132 -==> Parameters: 小明(String), 123(String)
+2018-01-10 15:26:21.350 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession():170 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38604b81]
+2018-01-10 15:26:34.046 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-01-10 15:26:34.822 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-01-10 15:26:35.054 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [D:\yirendai-workspace\springmvc_mybaties\target\classes\com\my\mapping\UserMapper.xml]'
+2018-01-10 15:26:35.120 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():106 -Creating a new SqlSession
+2018-01-10 15:26:35.130 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():142 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b213651] was not registered for synchronization because synchronization is not active
+2018-01-10 15:26:35.173 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection():85 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@78d6692f] will not be managed by Spring
+2018-01-10 15:26:35.175 DEBUG [main] com.my.dao.UserMapper.getAllUser.debug():132 -ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@78d6692f]
+2018-01-10 15:26:35.201 DEBUG [main] com.my.dao.UserMapper.getAllUser.debug():132 -==>  Preparing: select id, user_name, password, age from user_t 
+2018-01-10 15:26:35.318 DEBUG [main] com.my.dao.UserMapper.getAllUser.debug():132 -==> Parameters: 
+2018-01-10 15:26:35.378 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession():170 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b213651]
+2018-01-10 15:38:45.354 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-01-10 15:38:45.906 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-01-10 15:38:46.091 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [D:\yirendai-workspace\springmvc_mybaties\target\classes\com\my\mapping\UserMapper.xml]'
+2018-01-10 15:38:46.147 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():106 -Creating a new SqlSession
+2018-01-10 15:38:46.155 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():142 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b213651] was not registered for synchronization because synchronization is not active
+2018-01-10 15:38:46.212 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection():85 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@78d6692f] will not be managed by Spring
+2018-01-10 15:38:46.214 DEBUG [main] com.my.dao.UserMapper.getAllUser.debug():132 -ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@78d6692f]
+2018-01-10 15:38:46.224 DEBUG [main] com.my.dao.UserMapper.getAllUser.debug():132 -==>  Preparing: select id, user_name, password, age from user_t 
+2018-01-10 15:38:46.310 DEBUG [main] com.my.dao.UserMapper.getAllUser.debug():132 -==> Parameters: 
+2018-01-10 15:38:46.341 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession():170 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b213651]
