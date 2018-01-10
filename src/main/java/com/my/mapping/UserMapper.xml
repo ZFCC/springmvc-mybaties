@@ -82,4 +82,25 @@
       age = #{age,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <!-- 登录查询校验 -->
+   <select id="getUserByNameAndPassword" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user_t
+    where user_name = #{userName,jdbcType=INTEGER} and password=#{password,jdbcType=INTEGER}
+  </select>
+  
+   <select id="getUserByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user_t
+    where user_name = #{userName,jdbcType=INTEGER}
+  </select>
+  <!-- 查询所有 -->
+   <select id="getAllUser" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user_t
+    
+  </select>
 </mapper>

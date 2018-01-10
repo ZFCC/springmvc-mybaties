@@ -1,5 +1,7 @@
 package com.my.service;
 
+import java.util.List;
+
 import com.my.domain.User;
 
 public interface UserService {
@@ -22,4 +24,16 @@ public interface UserService {
 	public int insertSelective(User user);
 	
 	public int updateByPrimaryKey(User user);
+	
+	/**
+	 * 
+	 * @param name
+	 * @param password
+	 * @return
+	 */
+	public User getUserByNameAndPassword(String name, String password);
+	
+	public User getUserByName(String name);
+	
+	public List<User> getAllUser();
 }

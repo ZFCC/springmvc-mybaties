@@ -13,7 +13,7 @@ import com.my.domain.User;
 import com.my.service.UserService;
 
 @Controller
-@RequestMapping("/user")
+//@RequestMapping("/user/")
 public class UserController {
 
 	@Autowired
@@ -29,5 +29,25 @@ public class UserController {
         }
         request.setAttribute("error", "没有找到该用户！");
         return "error";
+    }
+    
+    @RequestMapping("login.do")
+    public String login(HttpServletRequest request,Model model){
+    	String userName = request.getParameter("userName");
+    	String password = request.getParameter("password");
+    	User user = userService.getUserByName(userName);
+    	//User user = userService.getUserByNameAndPassword(userName, password);
+    	if (user != null && user.getPassword().equals(password)) {
+    		request.setAttribute("success", "操作成功");
+    		return "success";
+		}else if(user == null){
+	    	request.setAttribute("error", "没有找到该用户,请先注册");
+	    	return "error";
+    	}else if(user.getPassword() != password){
+			request.setAttribute("error", "密码错误，请重新输入");
+			return "error";
+    	}
+    	return null;
+    	
     }
 }

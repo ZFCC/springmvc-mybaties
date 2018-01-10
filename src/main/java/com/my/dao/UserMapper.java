@@ -1,5 +1,9 @@
 package com.my.dao;
 
+import java.util.List;
+
+import org.apache.ibatis.annotations.Param;
+
 import com.my.domain.User;
 
 public interface UserMapper {
@@ -15,5 +19,9 @@ public interface UserMapper {
 
     int updateByPrimaryKey(User record);
     
+    User getUserByNameAndPassword(@Param("userName")String userName, @Param("password")String password);
     
+    User getUserByName(String userName);
+    
+    List<User> getAllUser();
 }

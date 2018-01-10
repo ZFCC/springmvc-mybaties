@@ -1,5 +1,7 @@
 package springmvc_mybaties;
 
+import java.util.List;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -58,4 +60,19 @@ public class UserDaoTest {
 		System.out.println(result);
 	}
 	
+	@Test
+	public void getByNameAndPassword(){
+		String name="小明";
+		String password = "123";
+		User user = userService.getUserByNameAndPassword(name, password);
+		System.out.println(user);
+	}
+	@Test
+	public void getall(){
+		List<User> list = userService.getAllUser();
+		for(User user: list){
+			System.out.println(user);
+		}
+		
+	}
 }
